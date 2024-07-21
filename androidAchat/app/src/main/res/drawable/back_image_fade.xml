@@ -1,0 +1,17 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background Image -->
+    <item>
+        <bitmap
+            android:gravity="center|fill_horizontal|fill_vertical"
+            android:src="@drawable/background_image" />
+    </item>
+    <!-- Gradient Overlay for Fade Effect -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#FFFFFFFF"
+            android:endColor="#91bfe0"
+            android:angle="90" />
+        </shape>
+    </item>
+</layer-list>
